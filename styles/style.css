@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}.header{
+    padding: 2% 0% 0% 15%;
+    background-color: rgb(164, 187, 228);
+}.header__nav{
+    display: flex;
+    gap: 80px   
+
+}.header_nav_a{
+    font-family: 'Montserrat', sans serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 2%;
+    text-decoration: none;
+}
+body {
+    background-color: lightgray ;
+    min-height: 100vh;
+    color: black;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    font-family: "EB Garamond", serif;
+
+}h2 {
+    color: rgb(0, 16, 160);
+    text-align: center;
+}h3{
+    color: rgb(0, 16, 160);
+    text-align: center;
+}.enlaces{
+    display: flex;
+    width: 230px;
+    background-color: rgb(138, 130, 214);
+    border-radius: 16px;
+    padding: 10px 0px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "EB Garamond", serif;
+    font-size: 19px;    
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}strong{
+    color: red;
+    
+} .destacar_titulo{
+    color: red;
+    padding: 10  px;
+    font-family: "EB Garamond", serif;
+}ol{
+    color: #000000;
+    list-style-type: decimal;
+    text-align: left;
+    padding-left: 150px;
+    font-size: 22px;
+    
+}
+ .destacartexto{
+    color:  #000000;
+    font-size: 23px;
+    text-align: center;
+    margin: 2px;
+    border: 2px;
+    font-family: "EB Garamond", serif;
+    padding-right: 10px;
+    padding-top: 5px;
+}.imagenes  {
+    text-align: center;
+    margin: 0px;
+
+}.urgente{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}.textoprincipal{
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    color: green;
+    flex-direction: column;
+    font-family: "EB Garamond", serif;
+}.infancia_texto{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex-direction: row;
+    margin: 1%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 0.5%   ;
+    justify-content: space-between;
+    font-family: "EB Garamond", serif;
+    width: 900px;
+    text-align: center;
+}.estilo_subtitulo{
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+}.botones{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+
+}.enlaces_botones_twitch{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 220px;
+    background-color: rgb(214, 127, 214);
+    text-align: center;
+    border-radius: 16px;
+    padding: 16px 0px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "EB Garamond", serif;
+    font-size: 24px;    
+    font-weight: 600;
+    border: 2px solid black;
+}.enlaces_botones_instagram{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 220px;
+    background-color: lightcoral;
+    text-align: center;
+    border-radius: 16px;
+    padding: 16px 0px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "EB Garamond", serif;
+    font-size: 24px;    
+    font-weight: 600;
+    border: 2px solid black;
+
+}.enlaces_botones_youtube{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 220px;
+    background-color: rgb(212, 178, 178);
+    text-align: center;
+    border-radius: 16px;
+    padding: 16px 0px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "EB Garamond", serif;
+    font-size: 24px;    
+    font-weight: 600;
+    border: 2px solid black;
+
+}.imagen{
+    padding-top: 5px;
+}.imagen_intro{
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+    top: 100px;
+    left: 50px;
+}.enlaces_botones_instagram:hover{
+    background-color: #f6f6f6f6;
+    cursor: pointer;
+    
+}.enlaces_botones_twitch:hover{
+    background-color: #f6f6f6f6;
+    cursor: pointer;
+
+}.enlaces_botones_youtube:hover{
+    background-color: #f6f6f6f6;
+    cursor: pointer;
+}.footer{
+    background-color: black;
+    margin: 15px;
+    border-radius:5px ;
+    color: white;
+    padding: 24px;
+    text-align: center
+}
+    
